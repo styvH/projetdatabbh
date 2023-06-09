@@ -6,7 +6,7 @@ import os
 base_url = "https://files.data.gouv.fr/lcsqa/concentrations-de-polluants-atmospheriques-reglementes/temps-reel/2023"
 
 # Répertoire de destination pour enregistrer les fichiers CSV
-destination_folder = "../data-pre-traitement/2023"
+destination_folder = "./data-pre-traitement/2023"
  
 # Créer le répertoire de destination s'il n'existe pas
 if not os.path.exists(destination_folder):
